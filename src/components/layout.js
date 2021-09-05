@@ -93,7 +93,7 @@ const Layout = ({ children }) => {
         <CookieConsent
           location="bottom"
           buttonText="OK"
-          cookieName="koopBlogCookie"
+          cookieName="kerfSiteCookie"
           expires={150}
           style={{
             background: "#222222",

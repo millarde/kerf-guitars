@@ -4,24 +4,24 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-const PostTemplate = ({ data }) => {
-  const { title, date, author, image } = data.mdx.frontmatter
+const ProdTemplate = ({ data }) => {
+  const { title, date, image } = data.mdx.frontmatter
   const { body } = data.mdx
   const img = getImage(image.childImageSharp.gatsbyImageData)
 
   return (
     <Layout>
       <section>
-        <Link className="btn" to="/blog/">
-          Back to all posts
+        <Link className="btn" to="/products/">
+          Back to all products
         </Link>
         <div>
           <h1>{title}</h1>
           <h4>
-            <span>Written by {author}</span> & Posted on <span>{date}</span>
+            Posted on <span>{date}</span>
           </h4>
         </div>
-        <GatsbyImage image={img} alt="Blog Post" />
+        <GatsbyImage image={img} alt="kerf guitar for sale" />
         <div>
           <MDXRenderer>{body}</MDXRenderer>
         </div>
@@ -34,7 +34,7 @@ const PostTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-  query getPost($slug: String!) {
+  query getProduct($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         title
@@ -52,4 +52,4 @@ export const query = graphql`
   }
 `
 
-export default PostTemplate
+export default ProdTemplate

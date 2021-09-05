@@ -1,5 +1,5 @@
 import React from "react"
-import PostList from "../components/PostList"
+import ProdList from "../components/ProdList"
 import Layout from "../components/layout"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -37,11 +37,11 @@ const getProducts = graphql`
 const ProductPage = () => {
   const response = useStaticQuery(getProducts)
 
-  const posts = response.allMdx.edges
+  const products = response.allMdx.edges
 
   return (
     <Layout>
-      <PostList posts={posts} />
+      <ProdList posts={products} />
     </Layout>
   )
 }

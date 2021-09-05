@@ -37,18 +37,21 @@ const Footer = () => {
   return (
     <FooterStyles>
       <h2 style={{ marginTop: "0px" }} className="title__main">
-        Koop
+        kerf
       </h2>
       <div className="container">
-        Koop - &copy; {year} Designed and built by{" "}
+        kerf guitars - &copy; {year} Designed and built by{" "}
         <a
-          href="https://www.morganbaker.dev"
+          href="https://www.linkedin.com/in/millarde/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Morgan Baker
+          Millard Ellingsworth
         </a>{" "}
         | <Link to="/privacy">Privacy Statement</Link>
+      </div>
+      <div className="container">
+      <p style={{color: "silver"}}>(adapted from original template by Morgan Baker)</p>
       </div>
     </FooterStyles>
   )

@@ -1,5 +1,5 @@
 import React from "react"
-import PostCard from "./PostCard"
+import ProdCard from "./ProdCard"
 import styled from "styled-components"
 import Anim from "./Anim"
 
@@ -11,12 +11,12 @@ const List = styled.div`
   }
 `
 
-const PostList = ({ posts }) => {
+const ProdList = ({ posts: prods }) => {
   return (
     <>
       <section>
         <Anim>
-          <h1>kerf blog</h1>
+          <h1>kerf products</h1>
           <h2>
             The latest & greatest high-perfomance vehicles from around the
             world. Filled with all the information you need to make the right
@@ -25,8 +25,8 @@ const PostList = ({ posts }) => {
         </Anim>
 
         <List>
-          {posts.map(({ node }, index) => {
-            return <PostCard key={index} post={node} />
+          {prods.map(({ node }, index) => {
+            return <ProdCard key={index} prod={node} />
           })}
         </List>
       </section>
@@ -34,4 +34,4 @@ const PostList = ({ posts }) => {
   )
 }
 
-export default PostList
+export default ProdList

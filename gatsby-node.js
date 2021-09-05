@@ -12,6 +12,7 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             frontmatter {
               slug
+              kind
             }
           }
         }
@@ -19,13 +20,24 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `)
   posts.forEach(({ node }) => {
-    const { slug } = node.frontmatter
-    createPage({
-      path: `/blog/` + slug,
-      component: require.resolve("./src/templates/post-template.js"),
-      context: {
-        slug: slug,
-      },
-    })
+    const { slug, kind } = node.frontmatter
+    if (kind == "blog") {
+      createPage({
+        path: `/blog/` + slug,
+        component: require.resolve("./src/templates/post-template.js"),
+        context: {
+          slug: slug,
+        },
+      })
+    }
+    if (kind == "product") {
+      createPage({
+        path: `/products/` + slug,
+        component: require.resolve("./src/templates/prod-template.js"),
+        context: {
+          slug: slug,
+        },
+      })
+    }
   })
 }
