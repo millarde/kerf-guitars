@@ -12,7 +12,7 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout>
       <section>
-        <Link className="btn" to="/">
+        <Link className="btn" to="/blog/">
           Back to all posts
         </Link>
         <div>
