@@ -1,18 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
 
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Koop Blog`,
-    titleTemplate: `%s | A simple MDX blog`,
+    title: `kerf guitars`,
+    titleTemplate: `%s | built for aspriing players`,
     description: `Built using GatsbyJS and serving content using markdown`,
-    siteUrl: `https://koop-blog.netlify.app`, // Cannot include a trailing slash
+    siteUrl: `https://kerfguitars.com`, // Cannot include a trailing slash
     image: `/images/macbook.jpg`,
-    twitterUsername: `@twitter`,
+    twitterUsername: `@millard3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
