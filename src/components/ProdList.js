@@ -11,7 +11,7 @@ const List = styled.div`
   }
 `
 
-const ProdList = ({ posts: prods }) => {
+const ProdList = ({ products }) => {
   return (
     <>
       <section>
@@ -25,7 +25,7 @@ const ProdList = ({ posts: prods }) => {
         </Anim>
 
         <List>
-          {prods.map(({ node }, index) => {
+          {products.map(({ node }, index) => {
             return <ProdCard key={index} prod={node} />
           })}
         </List>

@@ -41,7 +41,7 @@ const ProductPage = () => {
 
   return (
     <Layout>
-      <ProdList posts={products} />
+      <ProdList products={products} />
     </Layout>
   )
 }
