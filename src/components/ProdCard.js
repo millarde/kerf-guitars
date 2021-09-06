@@ -52,7 +52,7 @@ const ProdCard = ({ prod }) => {
           <p>{prod.excerpt}</p>
           <Meta>
             {/* <h4>Written by {author}</h4> */}
-            <h4>Posted on {date}</h4>
+            <h4>Available on {date}</h4>
             <div className="btn">See more details</div>
           </Meta>
         </Link>
