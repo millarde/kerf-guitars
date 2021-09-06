@@ -2,7 +2,8 @@
   "name": "kerf-guitars",
   "private": true,
   "description": "Web site for products and blogs from kerf guitars",
-  "version": "0.1.0",
+  "version": "2.0.0",
+  "author": "Millard Ellingsworth",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `kerf guitars`,
     titleTemplate: `%s | built for aspriing players`,
-    description: `Built using GatsbyJS and serving content using markdown`,
+    description: `This is the kerf guiltars web site. Please learn about what we do and why we do it, read some fun blogs and maybe buy a nice guitar.`,
     siteUrl: `https://kerfguitars.com`, // Cannot include a trailing slash
     image: `/images/kerfguitars-logo.png`,
     twitterUsername: `@millard3`,
@@ -42,12 +42,20 @@ module.exports = {
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048,
+            },
           },
         ],
       },
     },
     {
       resolve: `gatsby-plugin-styled-components`,
-    },
+    }, 
+    // must be after other CSS plugins
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
