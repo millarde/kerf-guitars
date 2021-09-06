@@ -40,6 +40,9 @@ const Footer = () => {
         kerf
       </h2>
       <div className="container">
+        <p>Links to other sections?</p>
+      </div>      
+      <div className="container">
         kerf guitars - &copy; {year} Designed and built by{" "}
         <a
           href="https://www.linkedin.com/in/millarde/"
@@ -50,9 +53,7 @@ const Footer = () => {
         </a>{" "}
         | <Link to="/privacy">Privacy Statement</Link>
       </div>
-      <div className="container">
-      <p style={{color: "silver"}}>(adapted from original template by Morgan Baker)</p>
-      </div>
+
     </FooterStyles>
   )
 }

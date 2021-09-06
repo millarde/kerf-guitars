@@ -1,7 +1,7 @@
 {
-  "name": "koop-blog",
+  "name": "kerf-guitars",
   "private": true,
-  "description": "A simple blog platform using GatsbyJS and MDX",
+  "description": "Web site for products and blogs from kerf guitars",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bagseye/koop-blog"
+    "url": "https://github.com/millarde/kerf-guitars"
   },
   "bugs": {
-    "url": "https://github.com/bagseye/koop-blog/issues"
+    "url": "https://github.com/millarde/kerf-guitars/issues"
   }
 }
