@@ -6,6 +6,7 @@ import Seo from "../components/Seo"
 import Footer from "./Footer"
 import { motion } from "framer-motion"
 import CookieConsent from "react-cookie-consent"
+import Navbar from './Navbar/Navbar'
 
 const GlobalStyle = createGlobalStyle`
 :root {
@@ -88,6 +89,7 @@ const Layout = ({ children }) => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, delay: 0.25 }}
       >
+        <Navbar />
         <main>{children}</main>
         <Footer />
         <CookieConsent

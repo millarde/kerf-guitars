@@ -6,7 +6,7 @@ module.exports = {
     titleTemplate: `%s | built for aspriing players`,
     description: `Built using GatsbyJS and serving content using markdown`,
     siteUrl: `https://kerfguitars.com`, // Cannot include a trailing slash
-    image: `/images/macbook.jpg`,
+    image: `/images/kerfguitars-logo.png`,
     twitterUsername: `@millard3`,
   },
   plugins: [
@@ -28,7 +28,14 @@ module.exports = {
         name: `products`,
         path: `src/products`,
       },
-    },    
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },        
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

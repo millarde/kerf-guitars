@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { StaticImage } from "gatsby-plugin-image"
+import { NavbarLinks } from './Navbar/NavbarLinks'
 
 const FooterStyles = styled.footer`
   font-weight: 700;
@@ -39,9 +41,24 @@ const Footer = () => {
       <h2 style={{ marginTop: "0px" }} className="title__main">
         kerf
       </h2>
+
       <div className="container">
-        <p>Links to other sections?</p>
-      </div>      
+        <Link to="/" > Home </Link>
+        &nbsp;|&nbsp;
+        <Link to="/guitars" > Guitars </Link>
+        &nbsp;|&nbsp;
+        <Link to="/blog" > Blog </Link>
+        &nbsp;|&nbsp;
+        <Link to="/about" > About </Link>
+        &nbsp;|&nbsp;
+        <Link to="/kerfcare" > kerfCare </Link>
+        &nbsp;|&nbsp;
+        <Link to="/contact" > Contact </Link>
+        &nbsp;|&nbsp;
+        <Link to="http://eepurl.com/hyCJqP" > Get Notified! </Link>
+      </div>
+
+ 
       <div className="container">
         kerf guitars - &copy; {year} Designed and built by{" "}
         <a
@@ -49,7 +66,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Millard Ellingsworth
+          millarde
         </a>{" "}
         | <Link to="/privacy">Privacy Statement</Link>
       </div>

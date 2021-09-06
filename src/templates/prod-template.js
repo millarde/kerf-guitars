@@ -12,7 +12,7 @@ const ProdTemplate = ({ data }) => {
   return (
     <Layout>
       <section>
-        <Link className="btn" to="/products/">
+        <Link className="btn" to="/guitars/">
           Back to all products
         </Link>
         <div>

@@ -32,7 +32,7 @@ exports.createPages = async ({ actions, graphql }) => {
     }
     if (kind == "product") {
       createPage({
-        path: `/products/` + slug,
+        path: `/guitars/` + slug,
         component: require.resolve("./src/templates/prod-template.js"),
         context: {
           slug: slug,
