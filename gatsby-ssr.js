@@ -17,7 +17,6 @@ export const shouldUpdateScroll = ({
   if (location.action === "PUSH") {
     window.setTimeout(() => window.scrollTo(0, 0), TRANSITION_DELAY)
   }
-
   // If we use the browsers back or forward button
   else {
     const savedPosition = getSavedScrollPosition(location) || [0, 0]

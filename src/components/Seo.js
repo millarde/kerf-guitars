@@ -18,8 +18,7 @@ const SEO = ({ title, description, lang, image, article }) => {
     twitterUsername,
   } = site.siteMetadata
 
-  // Check if data supplied
-  // If not, use defaults
+  // Check if data supplied. If not, use defaults
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
