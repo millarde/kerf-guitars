@@ -8,6 +8,7 @@ import { motion } from "framer-motion"
 import CookieConsent from "react-cookie-consent"
 import Navbar from './Navbar/Navbar'
 
+
 const GlobalStyle = createGlobalStyle`
 :root {
   --dark: #1a1a1a;
