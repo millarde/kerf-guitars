@@ -19,7 +19,7 @@ const PostList = ({ posts }) => {
           <h1>kerf blog</h1>
           <h2>
             We love tinkering and learning and sharing. Please enjoy and come back soon to see what's new 
-            (or just click the GetNotified! link and we'll email you when something new shows up).
+            (or just click the <em>Get Notified!</em> link and we'll email you when something new shows up).
           </h2>
         </Anim>
 
