@@ -39,6 +39,14 @@ const ProdList = ({ products }) => {
             return <ProdCard key={index} prod={node} />
           })}
         </List>
+        <h2>Hecho con amor!</h2>
+        <p>
+          We love guitar music and guitar players. We build each one to deliver a good playing experience. 
+          We want them to look a bit different -- we build and assemble them by hand, why make them look exactly like something 
+          you can buy elsewhere? 
+          
+          Each one comes with our "wabi sabi" guarantee -- you'll find little reminders that this was made by a human, 
+          subtle imperfections that a machine will likely not be able to recreate.</p>
       </section>
     </>
   )
