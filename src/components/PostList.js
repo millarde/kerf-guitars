@@ -18,9 +18,8 @@ const PostList = ({ posts }) => {
         <Anim>
           <h1>kerf blog</h1>
           <h2>
-            The latest & greatest high-perfomance vehicles from around the
-            world. Filled with all the information you need to make the right
-            choice.
+            We love tinkering and learning and sharing. Please enjoy and come back soon to see what's new 
+            (or just click the GetNotified! link and we'll email you when something new shows up).
           </h2>
         </Anim>
 

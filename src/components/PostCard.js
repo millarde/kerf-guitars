@@ -51,9 +51,9 @@ const PostCard = ({ post }) => {
           <h2>{title}</h2>
           <p>{post.excerpt}</p>
           <Meta>
-            <h4>Written by {author}</h4>
+            {/* <h4>Written by {author}</h4> */}
             <h4>Posted on {date}</h4>
-            <div className="btn">Read Article</div>
+            <div className="btn">Read Post</div>
           </Meta>
         </Link>
       </Anim>
