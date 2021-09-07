@@ -1,6 +1,6 @@
 import React from "react"
 import PostList from "../components/PostList"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { useStaticQuery, graphql } from "gatsby"
 
 const getPosts = graphql`

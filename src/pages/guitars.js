@@ -1,6 +1,6 @@
 import React from "react"
 import ProdList from "../components/ProdList"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { useStaticQuery, graphql } from "gatsby"
 
 const getProducts = graphql`
