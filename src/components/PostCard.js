@@ -39,7 +39,7 @@ const Meta = styled.div`
 `
 
 const PostCard = ({ post }) => {
-  const { title, date, author, slug } = post.frontmatter
+  const { title, date, slug } = post.frontmatter // author removed for now
 
   const img = post.frontmatter.image.childImageSharp.gatsbyImageData
 

@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { StaticImage } from "gatsby-plugin-image"
-import { NavbarLinks } from './Navbar/NavbarLinks'
 
 const FooterStyles = styled.footer`
   font-weight: 700;
@@ -60,14 +58,17 @@ const Footer = () => {
 
  
       <div className="container">
-        kerf guitars - &copy; {year} Designed and built by{" "}
+        kerf guitars - &copy; {year} 
+        {/* Designed and built by{" "}
         <a
           href="https://www.linkedin.com/in/millarde/"
           target="_blank"
           rel="noopener noreferrer"
         >
           millarde
-        </a>{" "}
+        </a> */}
+        
+        {" "}
         | <Link to="/privacy">Privacy Statement</Link>
       </div>
 
