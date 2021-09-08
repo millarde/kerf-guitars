@@ -71,6 +71,66 @@ h2 {
     text-transform: capitalize;
   }
 
+.form-button {
+  background-color: #3273dc;
+  border-color: transparent;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 1.25rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  padding: calc(.5em - 1px) 1em;
+  text-align: center;
+  white-space: nowrap;  
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.5em;
+}
+
+.form-field {
+  margin-bottom: .75rem;
+}
+
+.form-control {
+  box-sizing: border-box;
+  clear: both;
+  position: relative;
+  text-align: inherit;
+  font-size: 1rem;
+
+}
+
+.form-input {
+  box-shadow: inset 0 0.0625em 0.125em rgb(43 37 35 / 5%);
+  max-width: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) calc(.75em - 1px);
+  position: relative;
+  vertical-align: top;  
+}
+
 main {
   max-width: 800px;
   margin-left: auto;

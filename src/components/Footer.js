@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const FooterStyles = styled.footer`
+  margin-top: 1em;
   font-weight: 700;
   letter-spacing: -0.5px;
   a {
