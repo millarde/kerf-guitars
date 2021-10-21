@@ -13,7 +13,7 @@ const ProdTemplate = ({ data }) => {
     <Layout>
       <section>
         <Link className="btn" to="/guitars/">
-          Back to all products
+          Back to all guitars
         </Link>
         <div>
           <h1>{title}</h1>
@@ -24,6 +24,9 @@ const ProdTemplate = ({ data }) => {
         <GatsbyImage image={img} alt="kerf guitar for sale" />
         <div>
           <MDXRenderer>{body}</MDXRenderer>
+        </div>
+        <div>
+        Availalbe now -- use <Link to="/contact" > Contact form</Link> to request more details. Your purchase is protected by <Link to="/kerfcare" > kerfCare</Link>.
         </div>
         {/* <h4>
           <span>Written by {author}</span> & Posted on <span>{date}</span>

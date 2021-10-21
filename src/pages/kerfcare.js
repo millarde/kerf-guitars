@@ -20,7 +20,7 @@ const KerfCarePage = () => {
       <p>
         If you get your kerf home and somehow don't love it, bring it back (unharmed, please, within 2 weeks) and we'll refund your money or maybe 
         find a different guitar for you, your choice. If you later decide you want a different kerf, we'll figure out a reasonable credit for your
-        current one towards a trade-up.
+        current one towards a trade-in.
       </p>
       <h2>Loaner program</h2>
       <p>
