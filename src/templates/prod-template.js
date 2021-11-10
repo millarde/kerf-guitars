@@ -18,7 +18,7 @@ const ProdTemplate = ({ data }) => {
         <div>
           <h1>{title}</h1>
           <h4>
-            Posted on <span>{date}</span>
+            Updated on <span>{date}</span>
           </h4>
         </div>
         <GatsbyImage image={img} alt="kerf guitar for sale" />
@@ -26,7 +26,7 @@ const ProdTemplate = ({ data }) => {
           <MDXRenderer>{body}</MDXRenderer>
         </div>
         <div>
-        Availalbe now -- use <Link to="/contact" > Contact form</Link> to request more details. Your purchase is protected by <Link to="/kerfcare" > kerfCare</Link>.
+        Available now -- use <Link to="/contact" > Contact form</Link> to request more details. Your purchase is protected by <Link to="/kerfcare" > kerfCare</Link>.
         </div>
         {/* <h4>
           <span>Written by {author}</span> & Posted on <span>{date}</span>
