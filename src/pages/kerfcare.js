@@ -13,7 +13,7 @@ const KerfCarePage = () => {
       <p>
         Been reading about how good a set of upgraded pickups might sound? Bring us your kerf and the parts (including a new set of strings) and we'll 
         install them for you (please check with us first so we make sure the parts you want will work with your guitar). 
-        We want you to be delighted with your kerf, though all of it's phases. It should go without saying that if you have concerns, we'll
+        We want you to be delighted with your kerf, through all of it's phases. It should go without saying that if you have concerns, we'll
         address those, for sure.
       </p>
       <h2>Purchase protection</h2>
