@@ -1,7 +1,7 @@
 import React from "react"
-import PostList from "../components/PostList"
+// import PostList from "../components/PostList"
 import Layout from "../components/Layout"
-import { useStaticQuery, graphql } from "gatsby"
+import { /*useStaticQuery,*/ graphql } from "gatsby"
 
 const getPosts = graphql`
   {
@@ -32,19 +32,26 @@ const getPosts = graphql`
 `
 
 const Index = () => {
-  const response = useStaticQuery(getPosts)
+//  const response = useStaticQuery(getPosts)
 
-  const posts = response.allMdx.edges
+//  const posts = response.allMdx.edges
 
   return (
     <Layout>
 
       <h1>Welcome to kerf guitars</h1>
-      <h2>Crafting good guitars for aspiring players in Austin, Texas.</h2>
+      <h2>Building good guitars for aspiring players.</h2>
       <p>
-        Kerf guitars are built with the player's success in mind. Every note should be as easy to play and sound as accurate as possible. 
-        That may seem obvious, but many inexpensive guitars lack a good setup, even a simple intonation adjustment. This means that what 
-        you think you are playing is not what you are hearing and this lack of correct feedback is likely to disappoint and may derail your progress.
+        We build guitars with the player's success in mind. Every note should be as easy to play 
+        and sound as accurate as possible. 
+        That may seem obvious, but many inexpensive guitars (and some more expensive ones) lack a good setup, 
+        even a simple intonation adjustment. At some large online retailers, you have to spend over $400 to qualify for their <b>inspection </b>
+        much less an actual setup.
+      </p><p>
+        This means that what  
+        you think you are playing, what you are trying hard to play right, is not what you are actually hearing. This lack of correct feedback 
+        is likely to disappoint and may derail your progress (at just about any level of playing). We exist with hopes of helping
+        more people enjoy learning and playing guitar because the world is better off when there's music. The more guitar players, the better.
       </p>
       <h2>Paying it forward</h2>
       <p>
@@ -59,16 +66,12 @@ const Index = () => {
       </p>
       <p>
         Because those starter guitars are often barely playable. Even if you pay for a setup (and not many people do), no promises it was done well. 
-        So the excited, aspiring guitarist gets a difficult-to-sound-good-on-guitar, no matter how hard they practice. How long will that last?
+        So the excited, aspiring guitarist gets a difficult-to-sound-good-on guitar. No matter how hard they practice, they'll always sound a bit off. How long will that last?
       </p>
       <p>
-        I used to scour craigslist for the area and look for guitars that seemed to match what they were looking for in general and were in good 
-        repair and priced well. I'd send them several links in their price range and suggest they buy one of them.
+        So let's not do that. Buy a decent guitar with a quality setup, even if it's not one of ours.
       </p>
-      <p>
-        And then bring it directly to me. I'd clean it up, put on some new strings, do a good setup on it and make sure that it was 
-        ready to delight the new player who was about to receive it. And then I decided to take it to the next level.
-      </p>
+
       
       {/* <PostList posts={posts} /> */}
 
