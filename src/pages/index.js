@@ -52,6 +52,9 @@ const Index = () => {
         you think you are playing, what you are trying hard to play right, is not what you are actually hearing. This lack of correct feedback 
         is likely to disappoint and may derail your progress (at just about any level of playing). We exist with hopes of helping
         more people enjoy learning and playing guitar because the world is better off when there's music. The more guitar players, the better.
+      </p><p>
+        <b>JUST ADDED:</b> <a href="https://kerfguitars.com/guitars/on-the-bench">On the bench</a> gives you a peek at the guitars that are almost ready for sale. If you sign up for the email list,
+        you will get notified whenever we have an update.
       </p>
       <h2>Paying it forward</h2>
       <p>
