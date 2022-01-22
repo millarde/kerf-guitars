@@ -43,13 +43,14 @@ const Index = () => {
       <h2>Building good guitars for aspiring players.</h2>
       <p>
         We build guitars with the player's success in mind. Every note should be as easy to play 
-        and sound as accurate as possible. 
-        That may seem obvious, but many inexpensive guitars (and some more expensive ones) lack a good setup, 
+        and sound as accurate as possible. Some would call these "easy play" guitars, but we all 
+        know playing guitar well isn't easy (it just won't get much easier).
+        Many inexpensive guitars (and some more expensive ones) lack a good setup, 
         even a simple intonation adjustment. At some large online retailers, you have to spend over $400 to qualify for their <b>inspection </b>
         much less an actual setup.
       </p><p>
-        This means that what  
-        you think you are playing, what you are trying hard to play right, is not what you are actually hearing. This lack of correct feedback 
+        This means that the notes and chords  
+        you think you are playing, what you are trying hard to play right, is not quite what you are actually hearing. This lack of correct feedback 
         is likely to disappoint and may derail your progress (at just about any level of playing). We exist with hopes of helping
         more people enjoy learning and playing guitar because the world is better off when there's music. The more guitar players, the better.
       </p><p>
@@ -61,7 +62,7 @@ const Index = () => {
         We love music and we really love guitar music. Kerf guitars are sold roughly at cost. Really. We source kits and parts and 
         lacquers and paints and turn them into good guitars. It's work we love, so it's not really work. Don't worry, it's not our day job. 
         We think of it as a karma project -- we build them so that you have a better experience playing and you cover our costs so we can build 
-        another one for someone else.
+        another one for someone else. But make no mistake -- we build each one as if we were making it for ourselves.
       </p>
       <p>
         It actually started as a "service" I used to provide to friends and co-workers. Whenever they mentioned they were thinking of getting a 
