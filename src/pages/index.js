@@ -41,6 +41,7 @@ const Index = () => {
 
       <h1>Welcome to kerf guitars</h1>
       <h2>Building good guitars for aspiring players.</h2>
+      <p>See the Guitars page for our Annivesary/President's Day/Valentine's Day mashup sale! Save on every guitar.</p>
       <p>
         We build guitars with the player's success in mind. Every note should be as easy to play 
         and sound as accurate as possible. Some would call these "easy play" guitars, but we all 
