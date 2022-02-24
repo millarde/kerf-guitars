@@ -11,6 +11,10 @@ const KerfCarePage = () => {
         We'll change them for you, you just need to get it to us and provide (or pay for) new strings. We'll give it a general checkout and tune up while we have it.
       </p>
       <p>
+        kerfguitars is in the process of relocating to Bluffton, South Carolina (just west of Hilton Head Island). Austin customers should hit us up quickly 
+        if they need some service or want to take advantage of other kerfCare options before we'll have to start shipping guitars back and forth (at your expense).
+      </p>
+      <p>
         Been reading about how good a set of upgraded pickups might sound? Bring us your kerf and the parts (including a new set of strings) and we'll 
         install them for you (please check with us first so we make sure the parts you want will work with your guitar). 
         We want you to be delighted with your kerf, through all of it's phases. It should go without saying that if you have concerns, we'll
