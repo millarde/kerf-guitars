@@ -31,7 +31,8 @@ we'll use those funds to buy the next set of materials for another one.</p>
 <h2>Do you ship?</h2>
 <p>Yes, but, shipping is expensive, particularly at our low volume. We will only ship in a premium case (see blog), which costs almost $100 (it <em>is</em> a nice case) and depending on
 where you want it shipped, you need to cover that cost (figure at least another $50).</p>
-<p>We're in Austin, Texas, so if you are in the surrounding area, even as far as Houston, it's like far less expensive to either meet or I can drop off next time I'm out your way.</p>
+<p>We're in Bluffon, South Caroline, so if you are in the surrounding area, even as far as Charleston or Savannah, it's likely far less expensive to either meet 
+  or I can drop off next time I'm out your way.</p>
     
     <p style={{color: "silver"}}>Website built with Gatsby and based on original koop-blog from Morgan Baker</p>
     </Layout>

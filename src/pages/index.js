@@ -41,7 +41,9 @@ const Index = () => {
 
       <h1>Welcome to kerf guitars</h1>
       <h2>Building good guitars for aspiring players.</h2>
-      <p>See the Guitars page for our Annivesary/President's Day/Valentine's Day mashup sale! Save on every guitar.</p>
+      <p>Kerf guitars is moving to Bluffton, South Carolina! We're excited and look forward to making new friends in the music community there.
+        If you are an Austin customer, get in any requests for service by April 11. After that, we'll have to ship it back and forth (and that's pricey).
+      </p>
       <p>
         We build guitars with the player's success in mind. Every note should be as easy to play 
         and sound as accurate as possible. Some would call these "easy play" guitars, but we all 
