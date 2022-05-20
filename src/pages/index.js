@@ -41,45 +41,37 @@ const Index = () => {
 
       <h1>Welcome to kerf guitars</h1>
       <h2>Building good guitars for aspiring players.</h2>
-      <p>Kerf guitars is moving to Bluffton, South Carolina! We're excited and look forward to making new friends in the music community there.
-        If you are an Austin customer, get in any requests for service by April 11. After that, we'll have to ship it back and forth (and that's pricey).
-      </p>
       <p>
         We build guitars with the player's success in mind. Every note should be as easy to play 
         and sound as accurate as possible. Some would call these "easy play" guitars, but we all 
-        know playing guitar well isn't easy (it just won't get much easier).
+        know playing guitar well isn't easy. It just won't get much easier than with a kerf.
         Many inexpensive guitars (and some more expensive ones) lack a good setup, 
-        even a simple intonation adjustment. At some large online retailers, you have to spend over $400 to qualify for their <b>inspection </b>
-        much less an actual setup.
+        even a simple intonation adjustment. At some large online retailers, you have to spend over $400 
+        to qualify for their <b>inspection </b> much less an actual setup.
       </p><p>
         This means that the notes and chords  
-        you think you are playing, what you are trying hard to play right, is not quite what you are actually hearing. This lack of correct feedback 
-        is likely to disappoint and may derail your progress (at just about any level of playing). We exist with hopes of helping
-        more people enjoy learning and playing guitar because the world is better off when there's music. The more guitar players, the better.
+        you think you are playing, what you are trying hard to play right, is not quite what you should be hearing. This lack of correct feedback 
+        is likely derail or slow your progress (at just about any level of playing). We exist with hopes of helping
+        more people enjoy learning and playing guitar. The world is better off when there's music, so the more guitar players, the better.
       </p><p>
-        <b>JUST ADDED:</b> <a href="https://kerfguitars.com/guitars/on-the-bench">On the bench</a> gives you a peek at the guitars that are almost ready for sale. If you sign up for the email list,
+        <a href="https://kerfguitars.com/guitars/on-the-bench">On the bench</a> gives you a peek at the guitars that are almost ready for sale. 
+        There's a special, first of its kind kerf guitar on the bench right now. If you sign up for the email list,
         you will get notified whenever we have an update.
       </p>
       <h2>Paying it forward</h2>
       <p>
         We love music and we really love guitar music. Kerf guitars are sold roughly at cost. Really. We source kits and parts and 
-        lacquers and paints and turn them into good guitars. It's work we love, so it's not really work. Don't worry, it's not our day job. 
+        lacquers and paints and turn them into good guitars. It's work we love, so it's not really work. 
         We think of it as a karma project -- we build them so that you have a better experience playing and you cover our costs so we can build 
         another one for someone else. But make no mistake -- we build each one as if we were making it for ourselves.
       </p>
       <p>
-        It actually started as a "service" I used to provide to friends and co-workers. Whenever they mentioned they were thinking of getting a 
+        It was inspired by a "service" I used to provide to friends and co-workers. Whenever they mentioned they were thinking of getting a 
         guitar for a friend or child, I'd beg them to let me help. "Please don't go to the big box store and get a starter guitar."
+        Because those starter guitars are often barely playable. "Let me help you find something nice online and I'll do the setup on it." 
+        This is the next level of that.
       </p>
-      <p>
-        Because those starter guitars are often barely playable. Even if you pay for a setup (and not many people do), no promises it was done well. 
-        So the excited, aspiring guitarist gets a difficult-to-sound-good-on guitar. No matter how hard they practice, they'll always sound a bit off. How long will that last?
-      </p>
-      <p>
-        So let's not do that. Buy a decent guitar with a quality setup, even if it's not one of ours.
-      </p>
-
-      
+    
       {/* <PostList posts={posts} /> */}
 
     </Layout>
