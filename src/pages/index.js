@@ -54,7 +54,7 @@ const Index = () => {
         is likely derail or slow your progress (at just about any level of playing). We exist with hopes of helping
         more people enjoy learning and playing guitar. The world is better off when there's music, so the more guitar players, the better.
       </p><p>
-        <a href="https://kerfguitars.com/guitars/on-the-bench">On the bench</a> gives you a peek at the guitars that are almost ready for sale. 
+        <a href="https://kerfguitars.com/blog/on-the-bench">On the bench</a> gives you a peek at the guitars that are almost ready for sale. 
         There's a special, first of its kind kerf guitar on the bench right now. If you sign up for the email list,
         you will get notified whenever we have an update.
       </p>
